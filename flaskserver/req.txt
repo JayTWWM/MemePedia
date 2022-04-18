@@ -1,0 +1,6 @@
+tensorflow
+pillow
+numpy
+flask
+Flask-Cors
+google-cloud-vision

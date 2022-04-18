@@ -1,0 +1,12 @@
+{
+    "type": "service_account",
+    "project_id": "white-berm-346707",
+    "private_key_id": "4a2bc07e6b3c014a3893c404c92d88ca778e31c3",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCU68LK0d05r3mV\ngbpu/LY5uLnLIMGuEcAy2P3TEiKuU1JWMKsw4x0UtCvUYEBBDSPy2Q1ZS+Fz9kgY\nLCbQJOUAOpWMXPLG+tmn2pyA8B00GPTXxBOrj5Mp1gW+0YwZhYIBh4QuOaBpGJEB\nAaJ2chtoUQDtkNNyUGZ2LpYgrgPdygNXPJtYxlFbPX4f+K6kx8ynnC6eBgsmGYtx\nrtT8HgqHc4uCnpQafuGRYUIOSIoNxmS0YBlvryvY5UAed4FpiKyCZrMIH49HdCfi\nvgfaZa+8jBIMvQ3RLa83ZRrQqFROV96g9dFn4ktdQm5zx2i+A0vPrI3KZa96vjqK\nWSyz/R3XAgMBAAECggEADC0cr7WqF3HcCJfjVPjPs3eBpXSnsWJdKysn0c69TDCe\n3lI7ZRNkyNEUdlhqWIdJBa2ulDsKk48zBNrzT3h8yuB/YsskxJU1H67Vtgsr8BsM\nReoPy6rBFx4bOSdsA5gxcYuRiLAIiB9Ml9742CNrT0O0RjhduY6OWiJj/wcLZOJk\nGAH38B1plPqLvH93+xX4nrfl5AuRov6O0mI9C0GotoNL0AzP2DLAI1R2X8LtV0g3\nC00urFmbP4Qn6/xaVkTYWlrb8+kD4wnu/7QNJJYvkEKQq85C+b2z8fcD/w3X/R7Z\nbXLG4BAqobkJW7cr3bVDMDdJEWCsUwp4rOr4d2wMnQKBgQDPRmRJ0rcVYcGmE7Ct\n8+rrXGr3XTTL94i0uxhYowbkbHdfxrrsiXZjjROwdOlSSEiomMx7mdC6klo09xjW\n6QfqyfJd4G7/h/pqhTPAxWqvcFBV6b1yIPrJ3nECbaK1zS3TicoLPfSmVLiB1cGM\n3c1cEJ6QLHnEHj5j7Dkm2B/ZbQKBgQC37a4Qf535qyzWovPTLti820eLk/iOfBIa\nAamlk+QmpYflWHDJIK/OfT1Qzl0KCovuoOeU4EtXBH/X6KcNjoQedxzRnmk4S0XC\nWe5G9LeJSz9w04dYnNdyTF3k1bBEkhWLtZTpEhxVwbqULK0jO58FiFSEKojTRdDz\nAEVdPl/t0wKBgHHe1hHIdVSF1AENKC8opZKPvyQOTIcRgkTn1EQ9q/eprxsq7l4s\nVqHySzLRx6ywkVouN4hfxE/7PxuB9F98viC6uS/hsJkpduU2MGxjCG1BYqEQPEeK\n3rwwPB19ZbpC8j4YoKr0aodGW+bYK/DbmYpOhw3loS+g/d2fVPaGHVkxAoGAe1pz\nP+tm1pgftT+KSRsFDvv9arXtoBnDxh9RWJPsEqM3lfAPjERYxCKoabZNHbvfB0Zw\nqh8XSB/jYblNuEDZiNkXwdn89V0+Rs8rh/j90p1dydyDzEE8GRLwcdWCpypWOuGo\nIfwcdsM7z756y8NjrkE1dYJVS2Rqc16+Jn/7tDMCgYAej+mIGXHRadoHwlZOA96Z\n7c2imTGkeY0YuteDk+GQsP4EtIzXCSqPCk7Enx0up9SP9Cl2mJF7jy6bohZV6A48\nyioiFWQJe+Brg8tNzEouV3S/Mm+oxtWjXbbTsDHUIt5WxsK2q4yBtkotYXX7CJKh\nm7rUe/dCCNRZX8BKlftIVw==\n-----END PRIVATE KEY-----\n",
+    "client_email": "hackathonkj@white-berm-346707.iam.gserviceaccount.com",
+    "client_id": "109824520744713315924",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hackathonkj%40white-berm-346707.iam.gserviceaccount.com"
+}

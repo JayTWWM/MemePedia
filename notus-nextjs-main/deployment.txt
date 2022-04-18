@@ -1,0 +1,90 @@
+➜ truffle migrate --reset --network matic
+
+Compiling your contracts...
+===========================
+> Compiling @openzeppelin\contracts\token\ERC721\ERC721.sol
+> Compiling @openzeppelin\contracts\token\ERC721\IERC721.sol
+> Compiling @openzeppelin\contracts\token\ERC721\IERC721Receiver.sol
+> Compiling @openzeppelin\contracts\token\ERC721\extensions\ERC721URIStorage.sol
+> Compiling @openzeppelin\contracts\token\ERC721\extensions\IERC721Metadata.sol
+> Compiling @openzeppelin\contracts\utils\Address.sol
+> Compiling @openzeppelin\contracts\utils\Context.sol
+> Compiling @openzeppelin\contracts\utils\Counters.sol
+> Compiling @openzeppelin\contracts\utils\Strings.sol
+> Compiling @openzeppelin\contracts\utils\introspection\ERC165.sol
+> Compiling @openzeppelin\contracts\utils\introspection\IERC165.sol
+> Compiling .\contracts\MemePedia.sol
+> Compiling .\contracts\Migrations.sol
+> Artifacts written to C:\Users\Acer\Desktop\MemePedia\notus-nextjs-main\src\abis
+> Compiled successfully using:
+   - solc: 0.8.1+commit.df193b15.Emscripten.clang
+
+
+
+Starting migrations...
+======================
+> Network name:    'matic'
+> Network id:      80001
+> Block gas limit: 20000000 (0x1312d00)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xea0c48a7e1f020f65a54ed04c15344e157a1caed3fa502717ac68738e527b9f7
+   > Blocks: 1            Seconds: 8
+   > contract address:    0xbc19cb9f865E48954629195036713D73b2b5fFA6
+   > block number:        25866711
+   > block timestamp:     1649540508
+   > account:             0x7c9a978a1148c0Ba8Ee845bCebD07Ec817a50A16
+   > balance:             2.026794622251242309
+   > gas used:            164000 (0x280a0)
+   > gas price:           2.50000001 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00041000000164 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 25866712)
+   > confirmation number: 2 (block: 25866713)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.00041000000164 ETH
+
+
+3_deploy_memeNFT.js
+===================
+
+   Deploying 'MemePedia'
+   ---------------------
+   > transaction hash:    0xe91ba03bc557e49aba860357e75f5b514b81366e8367bb405a60b0548d207643
+   > Blocks: 1            Seconds: 8
+   > contract address:    0xA31893aDed575F0b0F603bFA2d857b564a58b28A
+   > block number:        25866718
+   > block timestamp:     1649540543
+   > account:             0x7c9a978a1148c0Ba8Ee845bCebD07Ec817a50A16
+   > balance:             2.023118472236537709
+   > gas used:            1424770 (0x15bd82)
+   > gas price:           2.50000001 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0035619250142477 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 25866719)
+   > confirmation number: 2 (block: 25866720)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.0035619250142477 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.0039719250158877 ETH

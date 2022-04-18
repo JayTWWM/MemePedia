@@ -1,0 +1,173 @@
+Compiling your contracts...
+===========================
+> Compiling @openzeppelin\contracts\token\ERC721\ERC721.sol
+> Compiling @openzeppelin\contracts\token\ERC721\IERC721.sol
+> Compiling @openzeppelin\contracts\token\ERC721\IERC721Receiver.sol
+> Compiling @openzeppelin\contracts\token\ERC721\extensions\ERC721URIStorage.sol
+> Compiling @openzeppelin\contracts\token\ERC721\extensions\IERC721Metadata.sol
+> Compiling @openzeppelin\contracts\utils\Address.sol
+> Compiling @openzeppelin\contracts\utils\Context.sol
+> Compiling @openzeppelin\contracts\utils\Counters.sol
+> Compiling @openzeppelin\contracts\utils\Strings.sol
+> Compiling @openzeppelin\contracts\utils\introspection\ERC165.sol
+> Compiling @openzeppelin\contracts\utils\introspection\IERC165.sol
+> Compiling .\contracts\MemePedia.sol
+> Compiling .\contracts\Migrations.sol
+> Artifacts written to C:\Users\Acer\Desktop\MemePedia\exp\MemePedia\notus-nextjs-main\src\abis
+> Compiled successfully using:
+   - solc: 0.8.1+commit.df193b15.Emscripten.clang
+
+
+
+Starting migrations...
+======================
+> Network name:    'matic'
+> Network id:      80001
+> Block gas limit: 20000000 (0x1312d00)
+
+
+1_initial_migration.js
+======================
+
+   Replacing 'Migrations'
+   ----------------------
+   > transaction hash:    0x18a34dc3654ed45a91b501e934fd63524a615177a5bbf36627830759a4f71144
+   > Blocks: 0            Seconds: 4
+   > contract address:    0x7965f3a0e132d78469e3f7e69f48AA325609d4Da
+   > block number:        25871275
+   > block timestamp:     1649569699
+   > account:             0x7c9a978a1148c0Ba8Ee845bCebD07Ec817a50A16
+   > balance:             2.022636997233627809
+   > gas used:            164000 (0x280a0)
+   > gas price:           2.500000016 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000410000002624 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 25871276)
+   > confirmation number: 2 (block: 25871277)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.000410000002624 ETH
+
+
+3_deploy_memeNFT.js
+===================
+
+   Replacing 'MemePedia'
+   ---------------------
+   > transaction hash:    0xad7d7b23d26d2b3d973387713b8fd7ff54ad606bcf2180d47ac943ce7993a418
+   > Blocks: 0            Seconds: 4
+   > contract address:    0xb820cC79cd08C6e3a70D2de0D9A1f63B5236776D
+   > block number:        25871279
+   > block timestamp:     1649569739
+   > account:             0x7c9a978a1148c0Ba8Ee845bCebD07Ec817a50A16
+   > balance:             2.018960847205734759
+   > gas used:            1424770 (0x15bd82)
+   > gas price:           2.500000019 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00356192502707063 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 25871280)
+   > confirmation number: 2 (block: 25871281)
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.00356192502707063 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.00397192502969463 ETH
+
+
+(venv) notus-nextjs-main on main ≡ ~15 via  14.15.3
+➜ truffle migrate --network alfajores
+
+Compiling your contracts...
+===========================
+> Compiling @openzeppelin\contracts\token\ERC721\ERC721.sol
+> Compiling @openzeppelin\contracts\token\ERC721\IERC721.sol
+> Compiling @openzeppelin\contracts\token\ERC721\IERC721Receiver.sol
+> Compiling @openzeppelin\contracts\token\ERC721\extensions\ERC721URIStorage.sol
+> Compiling @openzeppelin\contracts\token\ERC721\extensions\IERC721Metadata.sol
+> Compiling @openzeppelin\contracts\utils\Address.sol
+> Compiling @openzeppelin\contracts\utils\Context.sol
+> Compiling @openzeppelin\contracts\utils\Counters.sol
+> Compiling @openzeppelin\contracts\utils\Strings.sol
+> Compiling @openzeppelin\contracts\utils\introspection\ERC165.sol
+> Compiling @openzeppelin\contracts\utils\introspection\IERC165.sol
+> Compiling .\contracts\MemePedia.sol
+> Compiling .\contracts\Migrations.sol
+> Artifacts written to C:\Users\Acer\Desktop\MemePedia\exp\MemePedia\notus-nextjs-main\src\abis
+> Compiled successfully using:
+   - solc: 0.8.1+commit.df193b15.Emscripten.clang
+
+
+
+Starting migrations...
+======================
+> Network name:    'alfajores'
+> Network id:      44787
+> Block gas limit: 0 (0x0)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x455e046e9e42049c99c9601b43fb646f22fa6f4005cdddf7a8fe50967d5f6983
+   > Blocks: 1            Seconds: 5
+   > contract address:    0x3594739E4eb0FF3221D1d0d964Cd297958650F7d
+   > block number:        10842307
+   > block timestamp:     1649569808
+   > account:             0x7c9a978a1148c0Ba8Ee845bCebD07Ec817a50A16
+   > balance:             4.99991865
+   > gas used:            162700 (0x27b8c)
+   > gas price:           0.5 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00008135 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00008135 ETH
+
+
+3_deploy_memeNFT.js
+===================
+
+   Deploying 'MemePedia'
+   ---------------------
+   > transaction hash:    0xee5bb145ac3e584fb75c11efe4e129d9e031e2f9279348fc9edbc407b7bbf863
+   > Blocks: 1            Seconds: 4
+   > contract address:    0x07016C1f56ff3a765CAFE4b5E8eeeA0b9c6ADEce
+   > block number:        10842310
+   > block timestamp:     1649569823
+   > account:             0x7c9a978a1148c0Ba8Ee845bCebD07Ec817a50A16
+   > balance:             4.99918602
+   > gas used:            1422170 (0x15b35a)
+   > gas price:           0.5 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000711085 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.000711085 ETH
+
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.000792435 ETH
